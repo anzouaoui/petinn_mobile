@@ -37,30 +37,43 @@ class _OnbaordingPageWidgetState extends State<OnbaordingPageWidget> {
 
   @override
   Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap: () {
-        FocusScope.of(context).unfocus();
-        FocusManager.instance.primaryFocus?.unfocus();
-      },
-      child: Scaffold(
-        key: scaffoldKey,
-        backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
-        body: Container(
-          width: double.infinity,
-          height: double.infinity,
-          child: Padding(
-            padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 40.0),
-            child: PageView(
-              controller: _model.pageViewController ??=
-                  PageController(initialPage: 0),
-              scrollDirection: Axis.horizontal,
-              children: [
-                Container(
-                  width: double.infinity,
-                  height: double.infinity,
+    return Scaffold(
+      key: scaffoldKey,
+      backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
+      body: Container(
+        width: double.infinity,
+        height: double.infinity,
+        child: Padding(
+          padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 40.0),
+          child: PageView(
+            controller: _model.pageViewController ??=
+                PageController(initialPage: 0),
+            scrollDirection: Axis.horizontal,
+            children: [
+              Container(
+                width: double.infinity,
+                height: double.infinity,
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    fit: BoxFit.cover,
+                    image: Image.asset(
+                      'assets/images/full-shot-woman-holding-cute-dog.jpg',
+                    ).image,
+                  ),
+                  gradient: LinearGradient(
+                    colors: [Colors.transparent, Color(0x80000000)],
+                    stops: [0.0, 1.0],
+                    begin: AlignmentDirectional(0.0, -1.0),
+                    end: AlignmentDirectional(0, 1.0),
+                  ),
+                ),
+                child: Container(
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
-                      colors: [Colors.transparent, Color(0x80000000)],
+                      colors: [
+                        Color(0x00B26848),
+                        FlutterFlowTheme.of(context).tertiary
+                      ],
                       stops: [0.0, 1.0],
                       begin: AlignmentDirectional(0.0, -1.0),
                       end: AlignmentDirectional(0, 1.0),
@@ -178,12 +191,34 @@ class _OnbaordingPageWidgetState extends State<OnbaordingPageWidget> {
                     ),
                   ),
                 ),
-                Container(
-                  width: double.infinity,
-                  height: double.infinity,
+              ),
+              Container(
+                width: double.infinity,
+                height: double.infinity,
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    fit: BoxFit.cover,
+                    image: Image.asset(
+                      'assets/images/young-woman-with-cat-beach-near-sea-travel-concept-with-pet.jpg',
+                    ).image,
+                  ),
+                  gradient: LinearGradient(
+                    colors: [
+                      Color(0x00B26848),
+                      FlutterFlowTheme.of(context).tertiary
+                    ],
+                    stops: [0.0, 1.0],
+                    begin: AlignmentDirectional(0.0, -1.0),
+                    end: AlignmentDirectional(0, 1.0),
+                  ),
+                ),
+                child: Container(
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
-                      colors: [Colors.transparent, Color(0x80000000)],
+                      colors: [
+                        Color(0x00B26848),
+                        FlutterFlowTheme.of(context).tertiary
+                      ],
                       stops: [0.0, 1.0],
                       begin: AlignmentDirectional(0.0, -1.0),
                       end: AlignmentDirectional(0, 1.0),
@@ -301,12 +336,31 @@ class _OnbaordingPageWidgetState extends State<OnbaordingPageWidget> {
                     ),
                   ),
                 ),
-                Container(
-                  width: double.infinity,
-                  height: double.infinity,
+              ),
+              Container(
+                width: double.infinity,
+                height: double.infinity,
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    fit: BoxFit.cover,
+                    image: Image.asset(
+                      'assets/images/full-shot-family-hanging-out-jetty.jpg',
+                    ).image,
+                  ),
+                  gradient: LinearGradient(
+                    colors: [Colors.transparent, Color(0x80000000)],
+                    stops: [0.0, 1.0],
+                    begin: AlignmentDirectional(0.0, -1.0),
+                    end: AlignmentDirectional(0, 1.0),
+                  ),
+                ),
+                child: Container(
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
-                      colors: [Colors.transparent, Color(0x80000000)],
+                      colors: [
+                        Color(0x01B26848),
+                        FlutterFlowTheme.of(context).tertiary
+                      ],
                       stops: [0.0, 1.0],
                       begin: AlignmentDirectional(0.0, -1.0),
                       end: AlignmentDirectional(0, 1.0),
@@ -424,8 +478,8 @@ class _OnbaordingPageWidgetState extends State<OnbaordingPageWidget> {
                     ),
                   ),
                 ),
-              ],
-            ),
+              ),
+            ],
           ),
         ),
       ),
