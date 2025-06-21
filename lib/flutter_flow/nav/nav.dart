@@ -75,6 +75,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: ForgotPasswordPageWidget.routeName,
           path: ForgotPasswordPageWidget.routePath,
           builder: (context, params) => ForgotPasswordPageWidget(),
+        ),
+        FFRoute(
+          name: RegisterPageWidget.routeName,
+          path: RegisterPageWidget.routePath,
+          builder: (context, params) => RegisterPageWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

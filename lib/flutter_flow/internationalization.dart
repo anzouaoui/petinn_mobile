@@ -280,6 +280,62 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'fr': 'Maison',
     },
   },
+  // RegisterPage
+  {
+    'b66gl712': {
+      'en': 'Register',
+      'fr': 'S\'inscrire',
+    },
+    'q843appi': {
+      'en': 'You can register with your email or through social accounts',
+      'fr':
+          'Vous pouvez vous inscrire avec votre email ou via vos comptes sociaux',
+    },
+    'vfi3tuvk': {
+      'en': 'Email',
+      'fr': 'E-mail',
+    },
+    '53efob97': {
+      'en': 'Enter your email',
+      'fr': 'Entrez votre email',
+    },
+    'vox1bwm1': {
+      'en': 'Password',
+      'fr': 'Mot de passe',
+    },
+    '4tow3f3z': {
+      'en': 'Enter your password',
+      'fr': 'Entrez votre mot de passe',
+    },
+    'g6426tlc': {
+      'en': 'Confirm Password',
+      'fr': 'Confirmez le mot de passe',
+    },
+    'spyblsrz': {
+      'en': 'Confirm your password',
+      'fr': 'Confirmez votre mot de passe',
+    },
+    'r60tsysl': {
+      'en': 'Register',
+      'fr': 'S\'inscrire',
+    },
+    '8krcf0mx': {
+      'en': 'OR',
+      'fr': 'OU',
+    },
+    'wlsythfo': {
+      'en': 'Already have an account?',
+      'fr': 'Déjà un compte ?',
+    },
+    'w97jgobt': {
+      'en': 'Login now',
+      'fr': 'Connectez-vous maintenant',
+    },
+    'qyfsvyvk': {
+      'en': 'Home',
+      'fr': 'Maison',
+    },
+  },
   // Miscellaneous
   {
     '546tiqju': {

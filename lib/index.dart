@@ -5,3 +5,5 @@ export '/pages/authentication/login_page/login_page_widget.dart'
     show LoginPageWidget;
 export '/pages/authentication/forgot_password_page/forgot_password_page_widget.dart'
     show ForgotPasswordPageWidget;
+export '/pages/authentication/register_page/register_page_widget.dart'
+    show RegisterPageWidget;
