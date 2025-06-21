@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 
 import '/index.dart';
@@ -33,17 +34,42 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
       debugLogDiagnostics: true,
       refreshListenable: appStateNotifier,
       navigatorKey: appNavigatorKey,
-      errorBuilder: (context, state) => OnbaordingPageWidget(),
+      errorBuilder: (context, state) => appStateNotifier.showSplashImage
+          ? Builder(
+              builder: (context) => Container(
+                color: FlutterFlowTheme.of(context).primary,
+                child: Image.asset(
+                  'assets/images/Design_sans_titre_(4).png',
+                  fit: BoxFit.contain,
+                ),
+              ),
+            )
+          : OnbaordingPageWidget(),
       routes: [
         FFRoute(
           name: '_initialize',
           path: '/',
-          builder: (context, _) => OnbaordingPageWidget(),
+          builder: (context, _) => appStateNotifier.showSplashImage
+              ? Builder(
+                  builder: (context) => Container(
+                    color: FlutterFlowTheme.of(context).primary,
+                    child: Image.asset(
+                      'assets/images/Design_sans_titre_(4).png',
+                      fit: BoxFit.contain,
+                    ),
+                  ),
+                )
+              : OnbaordingPageWidget(),
         ),
         FFRoute(
           name: OnbaordingPageWidget.routeName,
           path: OnbaordingPageWidget.routePath,
           builder: (context, params) => OnbaordingPageWidget(),
+        ),
+        FFRoute(
+          name: LoginPageWidget.routeName,
+          path: LoginPageWidget.routePath,
+          builder: (context, params) => LoginPageWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

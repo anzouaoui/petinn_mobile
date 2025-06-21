@@ -188,7 +188,67 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     '034qzdvc': {
       'en': 'Home',
-      'fr': '',
+      'fr': 'Maison',
+    },
+  },
+  // LoginPage
+  {
+    '2xfgoccq': {
+      'en': 'Login to account',
+      'fr': 'Connectez-vous au compte',
+    },
+    'dhy4f5fg': {
+      'en': 'You can login with your email or through social accounts',
+      'fr':
+          'Vous pouvez vous connecter avec votre e-mail ou via vos comptes sociaux',
+    },
+    'xnvycjle': {
+      'en': 'Email',
+      'fr': 'E-mail',
+    },
+    '0lmu3hq9': {
+      'en': 'example@domain.com',
+      'fr': 'exemple@domaine.com',
+    },
+    'q0n9oq08': {
+      'en': 'Password',
+      'fr': 'Mot de passe',
+    },
+    '6u3x0350': {
+      'en': '••••••••',
+      'fr': '••••••••',
+    },
+    'gdsga77c': {
+      'en': 'Remember me',
+      'fr': 'Souviens-toi de moi',
+    },
+    'u88miqvt': {
+      'en': 'Forgot password?',
+      'fr': 'Mot de passe oublié?',
+    },
+    'd8bfdw9g': {
+      'en': 'Login',
+      'fr': 'Se connecter',
+    },
+    'qjf8oqrl': {
+      'en': 'OR',
+      'fr': 'OU',
+    },
+    'u19g5mjn': {
+      'en': 'No account?',
+      'fr': ' pas de compte ?',
+    },
+    'j1k1lrlh': {
+      'en': 'Register now',
+      'fr': 'Inscrivez-vous maintenant',
+    },
+    '2g5siojv': {
+      'en': 'Do you want to log in as a host?',
+      'fr': 'Voulez-vous vous connecter en tant qu\'hôte ?',
+    },
+    '6o5smn3m': {
+      'en': 'Home',
+      'fr': 'Maison',
     },
   },
   // Miscellaneous
