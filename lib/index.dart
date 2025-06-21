@@ -7,5 +7,3 @@ export '/pages/authentication/forgot_password_page/forgot_password_page_widget.d
     show ForgotPasswordPageWidget;
 export '/pages/authentication/register_page/register_page_widget.dart'
     show RegisterPageWidget;
-export '/pages/authentication/login_host_page/login_host_page_widget.dart'
-    show LoginHostPageWidget;
