@@ -284,7 +284,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   {
     'b66gl712': {
       'en': 'Register',
-      'fr': 'S\'inscrire',
+      'fr': 'Registre',
     },
     'q843appi': {
       'en': 'You can register with your email or through social accounts',
@@ -317,7 +317,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'r60tsysl': {
       'en': 'Register',
-      'fr': 'S\'inscrire',
+      'fr': 'Registre',
     },
     '8krcf0mx': {
       'en': 'OR',
@@ -325,13 +325,65 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'wlsythfo': {
       'en': 'Already have an account?',
-      'fr': 'Déjà un compte ?',
+      'fr': 'Vous avez déjà un compte ?',
     },
     'w97jgobt': {
       'en': 'Login now',
       'fr': 'Connectez-vous maintenant',
     },
     'qyfsvyvk': {
+      'en': 'Home',
+      'fr': 'Maison',
+    },
+  },
+  // LoginHostPage
+  {
+    '0eabxxiv': {
+      'en': 'Log in as a host',
+      'fr': 'Connectez-vous en tant qu\'hôte',
+    },
+    '2mmp5b2v': {
+      'en': 'You can login with your email or through social accounts',
+      'fr':
+          'Vous pouvez vous connecter avec votre e-mail ou via vos comptes sociaux',
+    },
+    'ylsr47wh': {
+      'en': 'Email',
+      'fr': 'E-mail',
+    },
+    'wl67r1yg': {
+      'en': 'hoster@domain.com',
+      'fr': 'hébergeur@domaine.com',
+    },
+    'tw9mqcur': {
+      'en': 'Password',
+      'fr': 'Mot de passe',
+    },
+    'ruhjs8bp': {
+      'en': '••••••',
+      'fr': '••••••',
+    },
+    '7rjkf8ga': {
+      'en': 'Remember me',
+      'fr': 'Souviens-toi de moi',
+    },
+    'zeju4plb': {
+      'en': 'Forgot password?',
+      'fr': 'Mot de passe oublié?',
+    },
+    'okn7m3xp': {
+      'en': 'Login',
+      'fr': 'Se connecter',
+    },
+    'apwegbzo': {
+      'en': 'OR',
+      'fr': 'OU',
+    },
+    's5hmr6ma': {
+      'en': 'Do you want to log in with a simple account?',
+      'fr': 'Voulez-vous vous connecter avec un compte simple ?',
+    },
+    'h2uuu0tl': {
       'en': 'Home',
       'fr': 'Maison',
     },
