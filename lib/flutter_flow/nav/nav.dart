@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '/main.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 
@@ -90,6 +91,20 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: LocationPermissionPageWidget.routeName,
           path: LocationPermissionPageWidget.routePath,
           builder: (context, params) => LocationPermissionPageWidget(),
+        ),
+        FFRoute(
+          name: HomePageWidget.routeName,
+          path: HomePageWidget.routePath,
+          builder: (context, params) => params.isEmpty
+              ? NavBarPage(initialPage: 'HomePage')
+              : HomePageWidget(),
+        ),
+        FFRoute(
+          name: SearchPAgeWidget.routeName,
+          path: SearchPAgeWidget.routePath,
+          builder: (context, params) => params.isEmpty
+              ? NavBarPage(initialPage: 'SearchPAge')
+              : SearchPAgeWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

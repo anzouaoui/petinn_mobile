@@ -11,3 +11,5 @@ export '/pages/settings/notifications_permission_page/notifications_permission_p
     show NotificationsPermissionPageWidget;
 export '/pages/settings/location_permission_page/location_permission_page_widget.dart'
     show LocationPermissionPageWidget;
+export '/pages/home_page/home_page_widget.dart' show HomePageWidget;
+export '/pages/search_p_age/search_p_age_widget.dart' show SearchPAgeWidget;

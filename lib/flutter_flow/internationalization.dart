@@ -273,7 +273,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'w4mjdmzo': {
       'en': 'Home',
-      'fr': 'Maison',
+      'fr': 'Recherche',
     },
   },
   // RegisterPage
@@ -329,7 +329,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'qyfsvyvk': {
       'en': 'Home',
-      'fr': 'Maison',
+      'fr': 'Recherche',
     },
   },
   // NotificationsPermissionPage
@@ -354,7 +354,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'h2uuu0tl': {
       'en': 'Home',
-      'fr': 'Maison',
+      'fr': 'Recherche',
     },
   },
   // LocationPermissionPage
@@ -378,6 +378,48 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     'loqhp7ha': {
       'en': 'Home',
       'fr': 'Maison',
+    },
+  },
+  // HomePage
+  {
+    '68i00hwm': {
+      'en': 'PetInn',
+      'fr': 'PetInn',
+    },
+    'tcu44beb': {
+      'en': 'Search hotels in',
+      'fr': 'Rechercher des hôtels à',
+    },
+    'vx5s3hnj': {
+      'en': 'Most Popular',
+      'fr': 'Le plus populaire',
+    },
+    'liffuzyz': {
+      'en': 'See All',
+      'fr': 'Tout voir',
+    },
+    'p8lxz0yq': {
+      'en': 'Recommendations',
+      'fr': 'Recommandations',
+    },
+    'kvnkxa4z': {
+      'en': 'See All',
+      'fr': 'Tout voir',
+    },
+    'nzuuaobl': {
+      'en': 'Home',
+      'fr': 'Recherche',
+    },
+  },
+  // SearchPAge
+  {
+    '4ilzkc34': {
+      'en': 'Page Title',
+      'fr': '',
+    },
+    'mxguyfsb': {
+      'en': 'Search',
+      'fr': 'Recherche',
     },
   },
   // PermissionsNotificationComponent
@@ -417,6 +459,56 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     '4elarcc8': {
       'en': 'Enable',
       'fr': 'Activer',
+    },
+  },
+  // PropertyFullImageComponent
+  {
+    'lj0516vl': {
+      'en': 'Burj Al Arab Jumeirah',
+      'fr': 'Burj Al Arab Jumeirah',
+    },
+    '888ykax1': {
+      'en': 'Jumeira St, Dubai, UAE',
+      'fr': 'Jumeira St, Dubaï, Émirats arabes unis',
+    },
+    '6aib0vyr': {
+      'en': '\$400',
+      'fr': '400 \$',
+    },
+    'os64ls5q': {
+      'en': '0',
+      'fr': '0',
+    },
+  },
+  // PropertyCardComponent
+  {
+    'wa7w6sg4': {
+      'en': 'Burj Al Arab Jumeirah',
+      'fr': 'Burj Al Arab Jumeirah',
+    },
+    'lthu05m2': {
+      'en': 'Jumeira St, Dubai, UAE',
+      'fr': 'Jumeira St, Dubaï, Émirats arabes unis',
+    },
+    'xzrjj7yi': {
+      'en': 'Free Wi-Fi',
+      'fr': 'Wi-Fi gratuit',
+    },
+    '7dhscpig': {
+      'en': 'Heating',
+      'fr': 'Chauffage',
+    },
+    'qj8wvjf0': {
+      'en': 'Shower',
+      'fr': 'Douche',
+    },
+    'ryb6isr9': {
+      'en': '\$400',
+      'fr': '400 \$',
+    },
+    'k1odbpkd': {
+      'en': 'Starting from',
+      'fr': 'À partir de',
     },
   },
   // Miscellaneous
