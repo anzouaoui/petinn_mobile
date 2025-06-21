@@ -1,5 +1,5 @@
-import '/components/property_card_component_widget.dart';
-import '/components/property_full_image_component_widget.dart';
+import '/component/property/property_card_component/property_card_component_widget.dart';
+import '/component/property/property_full_image_component/property_full_image_component_widget.dart';
 import '/flutter_flow/flutter_flow_icon_button.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';

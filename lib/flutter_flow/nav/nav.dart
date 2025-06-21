@@ -100,11 +100,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               : HomePageWidget(),
         ),
         FFRoute(
-          name: SearchPAgeWidget.routeName,
-          path: SearchPAgeWidget.routePath,
+          name: SearchPageWidget.routeName,
+          path: SearchPageWidget.routePath,
           builder: (context, params) => params.isEmpty
-              ? NavBarPage(initialPage: 'SearchPAge')
-              : SearchPAgeWidget(),
+              ? NavBarPage(initialPage: 'SearchPage')
+              : SearchPageWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

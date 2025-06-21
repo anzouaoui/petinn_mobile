@@ -1,5 +1,5 @@
-import '/components/property_card_component_widget.dart';
-import '/components/property_full_image_component_widget.dart';
+import '/component/property/property_card_component/property_card_component_widget.dart';
+import '/component/property/property_full_image_component/property_full_image_component_widget.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import 'home_page_widget.dart' show HomePageWidget;
 import 'package:flutter/material.dart';

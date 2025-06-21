@@ -1,4 +1,4 @@
-import '/component/permissions_notification_component/permissions_notification_component_widget.dart';
+import '/component/permissions/permissions_notification_component/permissions_notification_component_widget.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';

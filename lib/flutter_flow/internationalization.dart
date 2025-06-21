@@ -273,7 +273,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'w4mjdmzo': {
       'en': 'Home',
-      'fr': 'Recherche',
+      'fr': 'Maison',
     },
   },
   // RegisterPage
@@ -329,7 +329,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'qyfsvyvk': {
       'en': 'Home',
-      'fr': 'Recherche',
+      'fr': 'Maison',
     },
   },
   // NotificationsPermissionPage
@@ -354,7 +354,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'h2uuu0tl': {
       'en': 'Home',
-      'fr': 'Recherche',
+      'fr': 'Maison',
     },
   },
   // LocationPermissionPage
@@ -408,18 +408,62 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'nzuuaobl': {
       'en': 'Home',
-      'fr': 'Recherche',
+      'fr': 'Maison',
     },
   },
-  // SearchPAge
+  // SearchPage
   {
-    '4ilzkc34': {
-      'en': 'Page Title',
-      'fr': '',
+    'dgzobnjb': {
+      'en': 'Rechercher un hébergement',
+      'fr': 'Rechercher un hébergement',
+    },
+    'p5fqxi4t': {
+      'en': 'Trouvez l\'endroit parfait pour vous et votre animal',
+      'fr': 'Trouvez l\'endroit parfait pour vous et votre animal',
+    },
+    'o5ku3nqa': {
+      'en': 'Destination',
+      'fr': 'Destination',
+    },
+    '7dtf7qn5': {
+      'en': 'Où allez-vous ?',
+      'fr': 'Où allez-vous ?',
+    },
+    'z3bwyrhn': {
+      'en': 'Arrivée',
+      'fr': 'Arrivée',
+    },
+    '036gxr90': {
+      'en': 'jj/mm/aaaa',
+      'fr': 'jj/mm/aaaa',
+    },
+    'eoevr4gr': {
+      'en': 'Départ',
+      'fr': 'Partir',
+    },
+    '7dyleizf': {
+      'en': 'jj/mm/aaaa',
+      'fr': 'jj/mm/aaaa',
+    },
+    'gn31vpmk': {
+      'en': 'Voyageurs',
+      'fr': 'Voyageurs',
+    },
+    '3iy1alrh': {
+      'en': '1',
+      'fr': '1',
+    },
+    'xetsn9gu': {
+      'en': 'Rechercher',
+      'fr': 'Rechercher',
+    },
+    'bwc5heyn': {
+      'en': 'Hébergements disponibles',
+      'fr': 'Hébergements disponibles',
     },
     'mxguyfsb': {
       'en': 'Search',
-      'fr': 'Recherche',
+      'fr': 'Maison',
     },
   },
   // PermissionsNotificationComponent
@@ -509,6 +553,29 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     'k1odbpkd': {
       'en': 'Starting from',
       'fr': 'À partir de',
+    },
+  },
+  // PropertyHorizontalComponent
+  {
+    'ulf5cscw': {
+      'en': 'Appartement cosy avec jardin',
+      'fr': 'Appartement cosy avec jardin',
+    },
+    '3celwvem': {
+      'en': 'Paris 11ème',
+      'fr': 'Paris 11ème',
+    },
+    'fxdlzynm': {
+      'en': '4.9',
+      'fr': '4.9',
+    },
+    'doqaohre': {
+      'en': '85€',
+      'fr': '85€',
+    },
+    '13uqwpbs': {
+      'en': '/nuit',
+      'fr': '/nuit',
     },
   },
   // Miscellaneous
