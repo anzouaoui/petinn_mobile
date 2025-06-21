@@ -9,3 +9,5 @@ export '/pages/authentication/register_page/register_page_widget.dart'
     show RegisterPageWidget;
 export '/pages/settings/notifications_permission_page/notifications_permission_page_widget.dart'
     show NotificationsPermissionPageWidget;
+export '/pages/settings/location_permission_page/location_permission_page_widget.dart'
+    show LocationPermissionPageWidget;

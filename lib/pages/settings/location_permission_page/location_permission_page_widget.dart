@@ -1,34 +1,33 @@
-import '/component/permissions_notification_component/permissions_notification_component_widget.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'notifications_permission_page_model.dart';
-export 'notifications_permission_page_model.dart';
+import 'location_permission_page_model.dart';
+export 'location_permission_page_model.dart';
 
 /// Notification permission page
-class NotificationsPermissionPageWidget extends StatefulWidget {
-  const NotificationsPermissionPageWidget({super.key});
+class LocationPermissionPageWidget extends StatefulWidget {
+  const LocationPermissionPageWidget({super.key});
 
-  static String routeName = 'NotificationsPermissionPage';
-  static String routePath = '/notificationsPermissionPage';
+  static String routeName = 'LocationPermissionPage';
+  static String routePath = '/locationPermissionPage';
 
   @override
-  State<NotificationsPermissionPageWidget> createState() =>
-      _NotificationsPermissionPageWidgetState();
+  State<LocationPermissionPageWidget> createState() =>
+      _LocationPermissionPageWidgetState();
 }
 
-class _NotificationsPermissionPageWidgetState
-    extends State<NotificationsPermissionPageWidget> {
-  late NotificationsPermissionPageModel _model;
+class _LocationPermissionPageWidgetState
+    extends State<LocationPermissionPageWidget> {
+  late LocationPermissionPageModel _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
   void initState() {
     super.initState();
-    _model = createModel(context, () => NotificationsPermissionPageModel());
+    _model = createModel(context, () => LocationPermissionPageModel());
   }
 
   @override
@@ -77,7 +76,7 @@ class _NotificationsPermissionPageWidgetState
                         child: Align(
                           alignment: AlignmentDirectional(0.0, 0.0),
                           child: Icon(
-                            Icons.notifications,
+                            Icons.location_on,
                             color: Colors.white,
                             size: 32.0,
                           ),
@@ -90,7 +89,7 @@ class _NotificationsPermissionPageWidgetState
                       children: [
                         Text(
                           FFLocalizations.of(context).getText(
-                            'gu80zfec' /* Enable Notifications */,
+                            'nv9rrl2m' /* Enable location */,
                           ),
                           textAlign: TextAlign.center,
                           style: FlutterFlowTheme.of(context)
@@ -112,7 +111,7 @@ class _NotificationsPermissionPageWidgetState
                         ),
                         Text(
                           FFLocalizations.of(context).getText(
-                            'ld72oj12' /* Please enable notifications to... */,
+                            'cml463p9' /* Please enable location to sear... */,
                           ),
                           textAlign: TextAlign.center,
                           style: FlutterFlowTheme.of(context)
@@ -145,51 +144,23 @@ class _NotificationsPermissionPageWidgetState
               Column(
                 mainAxisSize: MainAxisSize.max,
                 children: [
-                  Builder(
-                    builder: (context) => FFButtonWidget(
-                      onPressed: () async {
-                        await showDialog(
-                          context: context,
-                          builder: (dialogContext) {
-                            return Dialog(
-                              elevation: 0,
-                              insetPadding: EdgeInsets.zero,
-                              backgroundColor: Colors.transparent,
-                              alignment: AlignmentDirectional(0.0, 0.0)
-                                  .resolve(Directionality.of(context)),
-                              child: GestureDetector(
-                                onTap: () {
-                                  FocusScope.of(dialogContext).unfocus();
-                                  FocusManager.instance.primaryFocus?.unfocus();
-                                },
-                                child: PermissionsNotificationComponentWidget(),
-                              ),
-                            );
-                          },
-                        );
-                      },
-                      text: FFLocalizations.of(context).getText(
-                        '3r0qakn3' /* Enable Notifications */,
-                      ),
-                      options: FFButtonOptions(
-                        width: 300.0,
-                        height: 50.0,
-                        padding: EdgeInsets.all(8.0),
-                        iconPadding:
-                            EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                        color: FlutterFlowTheme.of(context).primary,
-                        textStyle:
-                            FlutterFlowTheme.of(context).titleMedium.override(
-                                  font: GoogleFonts.balooDa2(
-                                    fontWeight: FlutterFlowTheme.of(context)
-                                        .titleMedium
-                                        .fontWeight,
-                                    fontStyle: FlutterFlowTheme.of(context)
-                                        .titleMedium
-                                        .fontStyle,
-                                  ),
-                                  color: Colors.white,
-                                  letterSpacing: 0.0,
+                  FFButtonWidget(
+                    onPressed: () {
+                      print('Button pressed ...');
+                    },
+                    text: FFLocalizations.of(context).getText(
+                      'e0udyuki' /* Enable location */,
+                    ),
+                    options: FFButtonOptions(
+                      width: 300.0,
+                      height: 50.0,
+                      padding: EdgeInsets.all(8.0),
+                      iconPadding:
+                          EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
+                      color: FlutterFlowTheme.of(context).primary,
+                      textStyle:
+                          FlutterFlowTheme.of(context).titleMedium.override(
+                                font: GoogleFonts.balooDa2(
                                   fontWeight: FlutterFlowTheme.of(context)
                                       .titleMedium
                                       .fontWeight,
@@ -197,14 +168,22 @@ class _NotificationsPermissionPageWidgetState
                                       .titleMedium
                                       .fontStyle,
                                 ),
-                        elevation: 0.0,
-                        borderRadius: BorderRadius.circular(8.0),
-                      ),
+                                color: Colors.white,
+                                letterSpacing: 0.0,
+                                fontWeight: FlutterFlowTheme.of(context)
+                                    .titleMedium
+                                    .fontWeight,
+                                fontStyle: FlutterFlowTheme.of(context)
+                                    .titleMedium
+                                    .fontStyle,
+                              ),
+                      elevation: 0.0,
+                      borderRadius: BorderRadius.circular(8.0),
                     ),
                   ),
                   Text(
                     FFLocalizations.of(context).getText(
-                      '7p1aie0b' /* Maybe Later */,
+                      'gkbc09nc' /* Maybe Later */,
                     ),
                     textAlign: TextAlign.center,
                     style: FlutterFlowTheme.of(context).bodyMedium.override(

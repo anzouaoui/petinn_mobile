@@ -357,25 +357,66 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'fr': 'Maison',
     },
   },
-  // Notifications
+  // LocationPermissionPage
   {
-    'pw7f55um': {
-      'en': 'Enable Notifications',
-      'fr': 'Activer les notifications',
+    'nv9rrl2m': {
+      'en': 'Enable location',
+      'fr': 'Activer la localisation',
     },
-    'ihw280f7': {
-      'en':
-          'Please enable notifications to receive about offers, payment and more',
-      'fr':
-          'Veuillez activer les notifications pour recevoir des informations sur les offres, les paiements et plus encore',
+    'cml463p9': {
+      'en': 'Please enable location to search around you',
+      'fr': 'Veuillez activer la localisation pour rechercher autour de vous',
     },
-    'my65l9tz': {
-      'en': 'Enable Notifications',
-      'fr': 'Activer les notifications',
+    'e0udyuki': {
+      'en': 'Enable location',
+      'fr': 'Activer la localisation',
     },
-    'u9fjch9k': {
+    'gkbc09nc': {
       'en': 'Maybe Later',
       'fr': 'Peut-être plus tard',
+    },
+    'loqhp7ha': {
+      'en': 'Home',
+      'fr': 'Maison',
+    },
+  },
+  // PermissionsNotificationComponent
+  {
+    'flr32q7o': {
+      'en': 'Enable Notifications?',
+      'fr': 'Activer les notifications ?',
+    },
+    'ffso6drw': {
+      'en': 'Are sure to enable notifications for this app?',
+      'fr':
+          'Êtes-vous sûr d\'activer les notifications pour cette application ?',
+    },
+    'j9vqz101': {
+      'en': 'Not now',
+      'fr': 'Pas maintenant',
+    },
+    '3d4x28il': {
+      'en': 'Enable',
+      'fr': 'Activer',
+    },
+  },
+  // PermissionsLocationComponent
+  {
+    'klwdwyzu': {
+      'en': 'Enable location?',
+      'fr': 'Activer la localisation ?',
+    },
+    'pzhm1oct': {
+      'en': 'Are sure to enable location  for this app?',
+      'fr': 'Êtes-vous sûr d\'activer la localisation pour cette application ?',
+    },
+    'skl7wzwi': {
+      'en': 'Refused',
+      'fr': 'Refusé',
+    },
+    '4elarcc8': {
+      'en': 'Enable',
+      'fr': 'Activer',
     },
   },
   // Miscellaneous
