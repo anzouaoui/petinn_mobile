@@ -236,7 +236,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'u19g5mjn': {
       'en': 'No account?',
-      'fr': ' pas de compte ?',
+      'fr': 'Pas de compte ?',
     },
     'j1k1lrlh': {
       'en': 'Register now',
@@ -247,6 +247,35 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'fr': 'Voulez-vous vous connecter en tant qu\'hôte ?',
     },
     '6o5smn3m': {
+      'en': 'Home',
+      'fr': 'Maison',
+    },
+  },
+  // ForgotPasswordPage
+  {
+    'k9wlxkku': {
+      'en': 'Forgot Your Password?',
+      'fr': 'Mot de passe oublié?',
+    },
+    'y8bf34to': {
+      'en':
+          'Don\'t worry, enter your registered email in our system and we will send you OTP',
+      'fr':
+          'Ne vous inquiétez pas, entrez votre email enregistré dans notre système et nous vous enverrons un OTP',
+    },
+    'f23kj53o': {
+      'en': 'Registered email',
+      'fr': 'E-mail enregistré',
+    },
+    'zywn2syi': {
+      'en': 'Enter here',
+      'fr': 'Entrez ici',
+    },
+    'd2y5t46r': {
+      'en': 'Get code',
+      'fr': 'Obtenir le code',
+    },
+    'w4mjdmzo': {
       'en': 'Home',
       'fr': 'Maison',
     },
