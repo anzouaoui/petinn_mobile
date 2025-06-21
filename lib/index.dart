@@ -7,3 +7,5 @@ export '/pages/authentication/forgot_password_page/forgot_password_page_widget.d
     show ForgotPasswordPageWidget;
 export '/pages/authentication/register_page/register_page_widget.dart'
     show RegisterPageWidget;
+export '/pages/settings/notifications_permission_page/notifications_permission_page_widget.dart'
+    show NotificationsPermissionPageWidget;

@@ -224,7 +224,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'taj7yn6y': {
       'en': 'Rem',
-      'fr': 'Mot de passe oublié ?',
+      'fr': 'Rem',
     },
     'd8bfdw9g': {
       'en': 'Login',
@@ -330,6 +330,52 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     'qyfsvyvk': {
       'en': 'Home',
       'fr': 'Maison',
+    },
+  },
+  // NotificationsPermissionPage
+  {
+    'gu80zfec': {
+      'en': 'Enable Notifications',
+      'fr': 'Activer les notifications',
+    },
+    'ld72oj12': {
+      'en':
+          'Please enable notifications to receive about offers, payment and more',
+      'fr':
+          'Veuillez activer les notifications pour recevoir des informations sur les offres, les paiements et plus encore',
+    },
+    '3r0qakn3': {
+      'en': 'Enable Notifications',
+      'fr': 'Activer les notifications',
+    },
+    '7p1aie0b': {
+      'en': 'Maybe Later',
+      'fr': 'Peut-être plus tard',
+    },
+    'h2uuu0tl': {
+      'en': 'Home',
+      'fr': 'Maison',
+    },
+  },
+  // Notifications
+  {
+    'pw7f55um': {
+      'en': 'Enable Notifications',
+      'fr': 'Activer les notifications',
+    },
+    'ihw280f7': {
+      'en':
+          'Please enable notifications to receive about offers, payment and more',
+      'fr':
+          'Veuillez activer les notifications pour recevoir des informations sur les offres, les paiements et plus encore',
+    },
+    'my65l9tz': {
+      'en': 'Enable Notifications',
+      'fr': 'Activer les notifications',
+    },
+    'u9fjch9k': {
+      'en': 'Maybe Later',
+      'fr': 'Peut-être plus tard',
     },
   },
   // Miscellaneous

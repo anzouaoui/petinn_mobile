@@ -80,6 +80,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: RegisterPageWidget.routeName,
           path: RegisterPageWidget.routePath,
           builder: (context, params) => RegisterPageWidget(),
+        ),
+        FFRoute(
+          name: NotificationsPermissionPageWidget.routeName,
+          path: NotificationsPermissionPageWidget.routePath,
+          builder: (context, params) => NotificationsPermissionPageWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );
