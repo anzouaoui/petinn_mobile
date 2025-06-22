@@ -110,6 +110,18 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: AccomodationDetailPageWidget.routeName,
           path: AccomodationDetailPageWidget.routePath,
           builder: (context, params) => AccomodationDetailPageWidget(),
+        ),
+        FFRoute(
+          name: BookingsListPageWidget.routeName,
+          path: BookingsListPageWidget.routePath,
+          builder: (context, params) => params.isEmpty
+              ? NavBarPage(initialPage: 'BookingsListPage')
+              : BookingsListPageWidget(),
+        ),
+        FFRoute(
+          name: BookingDetailsPageWidget.routeName,
+          path: BookingDetailsPageWidget.routePath,
+          builder: (context, params) => BookingDetailsPageWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

@@ -15,3 +15,7 @@ export '/pages/home_page/home_page_widget.dart' show HomePageWidget;
 export '/pages/search_page/search_page_widget.dart' show SearchPageWidget;
 export '/pages/accomodation/accomodation_detail_page/accomodation_detail_page_widget.dart'
     show AccomodationDetailPageWidget;
+export '/pages/booking/bookings_list_page/bookings_list_page_widget.dart'
+    show BookingsListPageWidget;
+export '/pages/booking/booking_details_page/booking_details_page_widget.dart'
+    show BookingDetailsPageWidget;

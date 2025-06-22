@@ -545,6 +545,100 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'fr': 'Maison',
     },
   },
+  // BookingsListPage
+  {
+    'zw51xjb3': {
+      'en': 'Bookings',
+      'fr': 'Réservations',
+    },
+    'sfktd88a': {
+      'en': 'Upcoming',
+      'fr': 'A venir',
+    },
+    '2pqcssik': {
+      'en': 'Passed',
+      'fr': 'Passé',
+    },
+    'w1s1xx9z': {
+      'en': 'Home',
+      'fr': 'Maison',
+    },
+  },
+  // BookingDetailsPage
+  {
+    'pa9dbg1t': {
+      'en': 'Booking details',
+      'fr': 'Détails de la réservation',
+    },
+    'h30m4fhe': {
+      'en': 'The Ritz-Carlton',
+      'fr': 'Le Ritz-Carlton',
+    },
+    '3v3l0e6y': {
+      'en': 'Dubai Marina, UAE',
+      'fr': 'Marina de Dubaï, Émirats arabes unis',
+    },
+    'xermnlzd': {
+      'en': '\$125',
+      'fr': '125 \$',
+    },
+    '53lmzo37': {
+      'en': '5',
+      'fr': '5',
+    },
+    'mhgx1wss': {
+      'en': '22.05.2025',
+      'fr': '22.05.2025',
+    },
+    'usgj3bwl': {
+      'en': '23.05.2025',
+      'fr': '23.05.2025',
+    },
+    'cik1zqmq': {
+      'en': '1 adults',
+      'fr': '1 adulte',
+    },
+    'yelin56p': {
+      'en': '3 Night Staying',
+      'fr': 'Séjour de 3 nuits',
+    },
+    'lxkwqwuu': {
+      'en': '\$125',
+      'fr': '125 \$',
+    },
+    'i4eas5ro': {
+      'en': 'Cleaning Fee',
+      'fr': 'Frais de nettoyage',
+    },
+    '3reyoo5f': {
+      'en': '\$10',
+      'fr': '10 \$',
+    },
+    'brs08tz0': {
+      'en': 'Service Fee',
+      'fr': 'Frais de service',
+    },
+    'k03g3u82': {
+      'en': '\$10',
+      'fr': '10 \$',
+    },
+    'cg1ggcrt': {
+      'en': 'Total Payment:',
+      'fr': 'Paiement total :',
+    },
+    'w3lnmqax': {
+      'en': '\$145',
+      'fr': '145 \$',
+    },
+    'l3vvzecq': {
+      'en': 'Cancel booking',
+      'fr': 'Annuler la réservation',
+    },
+    'ybycj06r': {
+      'en': 'Home',
+      'fr': 'Maison',
+    },
+  },
   // PermissionsNotificationComponent
   {
     'flr32q7o': {
@@ -670,6 +764,134 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     'kzvpaczg': {
       'en': 'Book now',
       'fr': 'Réservez maintenant',
+    },
+  },
+  // BookingUpcomingCardComponent
+  {
+    'dqm9mjvq': {
+      'en': 'Ocean Breeze Resort',
+      'fr': 'Ocean Breeze Resort',
+    },
+    '3ayd3xjc': {
+      'en': '5',
+      'fr': '5',
+    },
+    '34c5sk6f': {
+      'en': 'Takua Pa, Thailand',
+      'fr': 'Takua Pa, Thaïlande',
+    },
+    '7ij1zrnm': {
+      'en': 'Upcoming',
+      'fr': 'A venir',
+    },
+    'nqaefk4u': {
+      'en': 'From Aug 04 to Aug 04',
+      'fr': 'Du 04 août au 04 août',
+    },
+    'vpdu1fcc': {
+      'en': '3 adults, 1 child',
+      'fr': '3 adultes, 1 enfant',
+    },
+    'sobki20x': {
+      'en': 'Details',
+      'fr': 'Détails',
+    },
+    'vlot195f': {
+      'en': 'Cancel booking',
+      'fr': 'Annuler la réservation',
+    },
+  },
+  // BookingPassedCardComponent
+  {
+    '38qt7rpa': {
+      'en': 'Ocean Breeze Resort',
+      'fr': 'Ocean Breeze Resort',
+    },
+    'ahpy9gqv': {
+      'en': '5',
+      'fr': '5',
+    },
+    'wpr9dspz': {
+      'en': 'Takua Pa, Thailand',
+      'fr': 'Takua Pa, Thaïlande',
+    },
+    '3mj7p3tj': {
+      'en': 'Passed',
+      'fr': 'Passé',
+    },
+    'm2xbcl7w': {
+      'en': 'From Aug 04 to Aug 04',
+      'fr': 'Du 04 août au 04 août',
+    },
+    'gd84w6zr': {
+      'en': '3 adults, 1 child',
+      'fr': '3 adultes, 1 enfant',
+    },
+    '162gtp4n': {
+      'en': 'Details',
+      'fr': 'Détails',
+    },
+    's33ql80b': {
+      'en': 'Write review',
+      'fr': 'Écrire un avis',
+    },
+  },
+  // CancelBookingComponent
+  {
+    'd9cqxi8b': {
+      'en': 'Why you cancelling your booking',
+      'fr': 'Pourquoi annulez-vous votre réservation',
+    },
+    'wzl0mmxy': {
+      'en': 'Please choose reason from list',
+      'fr': 'Veuillez choisir une raison dans la liste',
+    },
+    'a7h9uwc2': {
+      'en': 'Change of Travel Plans',
+      'fr': 'Changement de plans de voyage',
+    },
+    'xq1hh6rl': {
+      'en': 'Found a Better Deal',
+      'fr': 'J\'ai trouvé une meilleure offre',
+    },
+    'i1f07dzs': {
+      'en': 'Personal or Family Emergency',
+      'fr': 'Urgence personnelle ou familiale',
+    },
+    'xcply398': {
+      'en': 'Visa or Travel Restrictions',
+      'fr': 'Restrictions de visa ou de voyage',
+    },
+    'uzlj6q7c': {
+      'en': 'Transportation Problems',
+      'fr': 'Problèmes de transport',
+    },
+    '9y6icqy8': {
+      'en': 'Other',
+      'fr': 'Autre',
+    },
+    '5p5zvmvq': {
+      'en': 'Cancel booking',
+      'fr': 'Annuler la réservation',
+    },
+  },
+  // WriteReviewComponent
+  {
+    'lfve6tj9': {
+      'en': 'Write a review',
+      'fr': 'Écrire un avis',
+    },
+    '3wyts9b7': {
+      'en': 'Review',
+      'fr': 'Revoir',
+    },
+    'xbx6mdx6': {
+      'en': 'TextField',
+      'fr': '',
+    },
+    'wf6psgih': {
+      'en': 'Confirmed',
+      'fr': 'Confirmé',
     },
   },
   // Miscellaneous
