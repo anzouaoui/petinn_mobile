@@ -1,5 +1,5 @@
-import '/component/property/property_card_component/property_card_component_widget.dart';
-import '/component/property/property_full_image_component/property_full_image_component_widget.dart';
+import '/component/accomodation/accomodation_card_component/accomodation_card_component_widget.dart';
+import '/component/accomodation/accomodation_full_image_component/accomodation_full_image_component_widget.dart';
 import '/flutter_flow/flutter_flow_icon_button.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
@@ -297,34 +297,39 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                 mainAxisSize: MainAxisSize.max,
                                 children: [
                                   wrapWithModel(
-                                    model:
-                                        _model.propertyFullImageComponentModel1,
+                                    model: _model
+                                        .accomodationFullImageComponentModel1,
                                     updateCallback: () => safeSetState(() {}),
-                                    child: PropertyFullImageComponentWidget(),
+                                    child:
+                                        AccomodationFullImageComponentWidget(),
                                   ),
                                   wrapWithModel(
-                                    model:
-                                        _model.propertyFullImageComponentModel2,
+                                    model: _model
+                                        .accomodationFullImageComponentModel2,
                                     updateCallback: () => safeSetState(() {}),
-                                    child: PropertyFullImageComponentWidget(),
+                                    child:
+                                        AccomodationFullImageComponentWidget(),
                                   ),
                                   wrapWithModel(
-                                    model:
-                                        _model.propertyFullImageComponentModel3,
+                                    model: _model
+                                        .accomodationFullImageComponentModel3,
                                     updateCallback: () => safeSetState(() {}),
-                                    child: PropertyFullImageComponentWidget(),
+                                    child:
+                                        AccomodationFullImageComponentWidget(),
                                   ),
                                   wrapWithModel(
-                                    model:
-                                        _model.propertyFullImageComponentModel4,
+                                    model: _model
+                                        .accomodationFullImageComponentModel4,
                                     updateCallback: () => safeSetState(() {}),
-                                    child: PropertyFullImageComponentWidget(),
+                                    child:
+                                        AccomodationFullImageComponentWidget(),
                                   ),
                                   wrapWithModel(
-                                    model:
-                                        _model.propertyFullImageComponentModel5,
+                                    model: _model
+                                        .accomodationFullImageComponentModel5,
                                     updateCallback: () => safeSetState(() {}),
-                                    child: PropertyFullImageComponentWidget(),
+                                    child:
+                                        AccomodationFullImageComponentWidget(),
                                   ),
                                 ].divide(SizedBox(width: 12.0)),
                               ),
@@ -391,29 +396,29 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             ],
                           ),
                           wrapWithModel(
-                            model: _model.propertyCardComponentModel1,
+                            model: _model.accomodationCardComponentModel1,
                             updateCallback: () => safeSetState(() {}),
-                            child: PropertyCardComponentWidget(),
+                            child: AccomodationCardComponentWidget(),
                           ),
                           wrapWithModel(
-                            model: _model.propertyCardComponentModel2,
+                            model: _model.accomodationCardComponentModel2,
                             updateCallback: () => safeSetState(() {}),
-                            child: PropertyCardComponentWidget(),
+                            child: AccomodationCardComponentWidget(),
                           ),
                           wrapWithModel(
-                            model: _model.propertyCardComponentModel3,
+                            model: _model.accomodationCardComponentModel3,
                             updateCallback: () => safeSetState(() {}),
-                            child: PropertyCardComponentWidget(),
+                            child: AccomodationCardComponentWidget(),
                           ),
                           wrapWithModel(
-                            model: _model.propertyCardComponentModel4,
+                            model: _model.accomodationCardComponentModel4,
                             updateCallback: () => safeSetState(() {}),
-                            child: PropertyCardComponentWidget(),
+                            child: AccomodationCardComponentWidget(),
                           ),
                           wrapWithModel(
-                            model: _model.propertyCardComponentModel5,
+                            model: _model.accomodationCardComponentModel5,
                             updateCallback: () => safeSetState(() {}),
-                            child: PropertyCardComponentWidget(),
+                            child: AccomodationCardComponentWidget(),
                           ),
                         ].divide(SizedBox(height: 16.0)),
                       ),

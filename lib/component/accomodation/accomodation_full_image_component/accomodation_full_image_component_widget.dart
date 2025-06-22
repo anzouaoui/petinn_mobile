@@ -2,21 +2,21 @@ import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'property_full_image_component_model.dart';
-export 'property_full_image_component_model.dart';
+import 'accomodation_full_image_component_model.dart';
+export 'accomodation_full_image_component_model.dart';
 
 /// Property with full image component
-class PropertyFullImageComponentWidget extends StatefulWidget {
-  const PropertyFullImageComponentWidget({super.key});
+class AccomodationFullImageComponentWidget extends StatefulWidget {
+  const AccomodationFullImageComponentWidget({super.key});
 
   @override
-  State<PropertyFullImageComponentWidget> createState() =>
-      _PropertyFullImageComponentWidgetState();
+  State<AccomodationFullImageComponentWidget> createState() =>
+      _AccomodationFullImageComponentWidgetState();
 }
 
-class _PropertyFullImageComponentWidgetState
-    extends State<PropertyFullImageComponentWidget> {
-  late PropertyFullImageComponentModel _model;
+class _AccomodationFullImageComponentWidgetState
+    extends State<AccomodationFullImageComponentWidget> {
+  late AccomodationFullImageComponentModel _model;
 
   @override
   void setState(VoidCallback callback) {
@@ -27,7 +27,7 @@ class _PropertyFullImageComponentWidgetState
   @override
   void initState() {
     super.initState();
-    _model = createModel(context, () => PropertyFullImageComponentModel());
+    _model = createModel(context, () => AccomodationFullImageComponentModel());
   }
 
   @override

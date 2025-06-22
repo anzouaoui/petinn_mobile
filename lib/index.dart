@@ -13,3 +13,5 @@ export '/pages/settings/location_permission_page/location_permission_page_widget
     show LocationPermissionPageWidget;
 export '/pages/home_page/home_page_widget.dart' show HomePageWidget;
 export '/pages/search_page/search_page_widget.dart' show SearchPageWidget;
+export '/pages/accomodation/accomodation_detail_page/accomodation_detail_page_widget.dart'
+    show AccomodationDetailPageWidget;

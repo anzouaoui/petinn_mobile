@@ -1,9 +1,9 @@
 import '/flutter_flow/flutter_flow_util.dart';
-import 'property_card_component_widget.dart' show PropertyCardComponentWidget;
+import 'booking_price_component_widget.dart' show BookingPriceComponentWidget;
 import 'package:flutter/material.dart';
 
-class PropertyCardComponentModel
-    extends FlutterFlowModel<PropertyCardComponentWidget> {
+class BookingPriceComponentModel
+    extends FlutterFlowModel<BookingPriceComponentWidget> {
   @override
   void initState(BuildContext context) {}
 

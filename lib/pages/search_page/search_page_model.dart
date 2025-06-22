@@ -1,4 +1,4 @@
-import '/component/property/property_horizontal_component/property_horizontal_component_widget.dart';
+import '/component/accomodation/accomodation_horizontal_component/accomodation_horizontal_component_widget.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import 'search_page_widget.dart' show SearchPageWidget;
 import 'package:flutter/material.dart';
@@ -22,37 +22,44 @@ class SearchPageModel extends FlutterFlowModel<SearchPageWidget> {
   FocusNode? textFieldFocusNode4;
   TextEditingController? textController4;
   String? Function(BuildContext, String?)? textController4Validator;
-  // Model for PropertyHorizontalComponent component.
-  late PropertyHorizontalComponentModel propertyHorizontalComponentModel1;
-  // Model for PropertyHorizontalComponent component.
-  late PropertyHorizontalComponentModel propertyHorizontalComponentModel2;
-  // Model for PropertyHorizontalComponent component.
-  late PropertyHorizontalComponentModel propertyHorizontalComponentModel3;
-  // Model for PropertyHorizontalComponent component.
-  late PropertyHorizontalComponentModel propertyHorizontalComponentModel4;
-  // Model for PropertyHorizontalComponent component.
-  late PropertyHorizontalComponentModel propertyHorizontalComponentModel5;
-  // Model for PropertyHorizontalComponent component.
-  late PropertyHorizontalComponentModel propertyHorizontalComponentModel6;
-  // Model for PropertyHorizontalComponent component.
-  late PropertyHorizontalComponentModel propertyHorizontalComponentModel7;
+  // Model for AccomodationHorizontalComponent component.
+  late AccomodationHorizontalComponentModel
+      accomodationHorizontalComponentModel1;
+  // Model for AccomodationHorizontalComponent component.
+  late AccomodationHorizontalComponentModel
+      accomodationHorizontalComponentModel2;
+  // Model for AccomodationHorizontalComponent component.
+  late AccomodationHorizontalComponentModel
+      accomodationHorizontalComponentModel3;
+  // Model for AccomodationHorizontalComponent component.
+  late AccomodationHorizontalComponentModel
+      accomodationHorizontalComponentModel4;
+  // Model for AccomodationHorizontalComponent component.
+  late AccomodationHorizontalComponentModel
+      accomodationHorizontalComponentModel5;
+  // Model for AccomodationHorizontalComponent component.
+  late AccomodationHorizontalComponentModel
+      accomodationHorizontalComponentModel6;
+  // Model for AccomodationHorizontalComponent component.
+  late AccomodationHorizontalComponentModel
+      accomodationHorizontalComponentModel7;
 
   @override
   void initState(BuildContext context) {
-    propertyHorizontalComponentModel1 =
-        createModel(context, () => PropertyHorizontalComponentModel());
-    propertyHorizontalComponentModel2 =
-        createModel(context, () => PropertyHorizontalComponentModel());
-    propertyHorizontalComponentModel3 =
-        createModel(context, () => PropertyHorizontalComponentModel());
-    propertyHorizontalComponentModel4 =
-        createModel(context, () => PropertyHorizontalComponentModel());
-    propertyHorizontalComponentModel5 =
-        createModel(context, () => PropertyHorizontalComponentModel());
-    propertyHorizontalComponentModel6 =
-        createModel(context, () => PropertyHorizontalComponentModel());
-    propertyHorizontalComponentModel7 =
-        createModel(context, () => PropertyHorizontalComponentModel());
+    accomodationHorizontalComponentModel1 =
+        createModel(context, () => AccomodationHorizontalComponentModel());
+    accomodationHorizontalComponentModel2 =
+        createModel(context, () => AccomodationHorizontalComponentModel());
+    accomodationHorizontalComponentModel3 =
+        createModel(context, () => AccomodationHorizontalComponentModel());
+    accomodationHorizontalComponentModel4 =
+        createModel(context, () => AccomodationHorizontalComponentModel());
+    accomodationHorizontalComponentModel5 =
+        createModel(context, () => AccomodationHorizontalComponentModel());
+    accomodationHorizontalComponentModel6 =
+        createModel(context, () => AccomodationHorizontalComponentModel());
+    accomodationHorizontalComponentModel7 =
+        createModel(context, () => AccomodationHorizontalComponentModel());
   }
 
   @override
@@ -69,12 +76,12 @@ class SearchPageModel extends FlutterFlowModel<SearchPageWidget> {
     textFieldFocusNode4?.dispose();
     textController4?.dispose();
 
-    propertyHorizontalComponentModel1.dispose();
-    propertyHorizontalComponentModel2.dispose();
-    propertyHorizontalComponentModel3.dispose();
-    propertyHorizontalComponentModel4.dispose();
-    propertyHorizontalComponentModel5.dispose();
-    propertyHorizontalComponentModel6.dispose();
-    propertyHorizontalComponentModel7.dispose();
+    accomodationHorizontalComponentModel1.dispose();
+    accomodationHorizontalComponentModel2.dispose();
+    accomodationHorizontalComponentModel3.dispose();
+    accomodationHorizontalComponentModel4.dispose();
+    accomodationHorizontalComponentModel5.dispose();
+    accomodationHorizontalComponentModel6.dispose();
+    accomodationHorizontalComponentModel7.dispose();
   }
 }

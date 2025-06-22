@@ -1,4 +1,4 @@
-import '/component/property/property_horizontal_component/property_horizontal_component_widget.dart';
+import '/component/accomodation/accomodation_horizontal_component/accomodation_horizontal_component_widget.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
@@ -846,39 +846,46 @@ class _SearchPageWidgetState extends State<SearchPageWidget> {
                           mainAxisSize: MainAxisSize.max,
                           children: [
                             wrapWithModel(
-                              model: _model.propertyHorizontalComponentModel1,
+                              model:
+                                  _model.accomodationHorizontalComponentModel1,
                               updateCallback: () => safeSetState(() {}),
-                              child: PropertyHorizontalComponentWidget(),
+                              child: AccomodationHorizontalComponentWidget(),
                             ),
                             wrapWithModel(
-                              model: _model.propertyHorizontalComponentModel2,
+                              model:
+                                  _model.accomodationHorizontalComponentModel2,
                               updateCallback: () => safeSetState(() {}),
-                              child: PropertyHorizontalComponentWidget(),
+                              child: AccomodationHorizontalComponentWidget(),
                             ),
                             wrapWithModel(
-                              model: _model.propertyHorizontalComponentModel3,
+                              model:
+                                  _model.accomodationHorizontalComponentModel3,
                               updateCallback: () => safeSetState(() {}),
-                              child: PropertyHorizontalComponentWidget(),
+                              child: AccomodationHorizontalComponentWidget(),
                             ),
                             wrapWithModel(
-                              model: _model.propertyHorizontalComponentModel4,
+                              model:
+                                  _model.accomodationHorizontalComponentModel4,
                               updateCallback: () => safeSetState(() {}),
-                              child: PropertyHorizontalComponentWidget(),
+                              child: AccomodationHorizontalComponentWidget(),
                             ),
                             wrapWithModel(
-                              model: _model.propertyHorizontalComponentModel5,
+                              model:
+                                  _model.accomodationHorizontalComponentModel5,
                               updateCallback: () => safeSetState(() {}),
-                              child: PropertyHorizontalComponentWidget(),
+                              child: AccomodationHorizontalComponentWidget(),
                             ),
                             wrapWithModel(
-                              model: _model.propertyHorizontalComponentModel6,
+                              model:
+                                  _model.accomodationHorizontalComponentModel6,
                               updateCallback: () => safeSetState(() {}),
-                              child: PropertyHorizontalComponentWidget(),
+                              child: AccomodationHorizontalComponentWidget(),
                             ),
                             wrapWithModel(
-                              model: _model.propertyHorizontalComponentModel7,
+                              model:
+                                  _model.accomodationHorizontalComponentModel7,
                               updateCallback: () => safeSetState(() {}),
-                              child: PropertyHorizontalComponentWidget(),
+                              child: AccomodationHorizontalComponentWidget(),
                             ),
                           ].divide(SizedBox(height: 12.0)),
                         ),

@@ -2,20 +2,20 @@ import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'property_card_component_model.dart';
-export 'property_card_component_model.dart';
+import 'accomodation_card_component_model.dart';
+export 'accomodation_card_component_model.dart';
 
-class PropertyCardComponentWidget extends StatefulWidget {
-  const PropertyCardComponentWidget({super.key});
+class AccomodationCardComponentWidget extends StatefulWidget {
+  const AccomodationCardComponentWidget({super.key});
 
   @override
-  State<PropertyCardComponentWidget> createState() =>
-      _PropertyCardComponentWidgetState();
+  State<AccomodationCardComponentWidget> createState() =>
+      _AccomodationCardComponentWidgetState();
 }
 
-class _PropertyCardComponentWidgetState
-    extends State<PropertyCardComponentWidget> {
-  late PropertyCardComponentModel _model;
+class _AccomodationCardComponentWidgetState
+    extends State<AccomodationCardComponentWidget> {
+  late AccomodationCardComponentModel _model;
 
   @override
   void setState(VoidCallback callback) {
@@ -26,7 +26,7 @@ class _PropertyCardComponentWidgetState
   @override
   void initState() {
     super.initState();
-    _model = createModel(context, () => PropertyCardComponentModel());
+    _model = createModel(context, () => AccomodationCardComponentModel());
   }
 
   @override

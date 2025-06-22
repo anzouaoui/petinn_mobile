@@ -1,5 +1,5 @@
-import '/component/property/property_card_component/property_card_component_widget.dart';
-import '/component/property/property_full_image_component/property_full_image_component_widget.dart';
+import '/component/accomodation/accomodation_card_component/accomodation_card_component_widget.dart';
+import '/component/accomodation/accomodation_full_image_component/accomodation_full_image_component_widget.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import 'home_page_widget.dart' show HomePageWidget;
 import 'package:flutter/material.dart';
@@ -11,49 +11,49 @@ class HomePageModel extends FlutterFlowModel<HomePageWidget> {
   FocusNode? textFieldFocusNode;
   TextEditingController? textController;
   String? Function(BuildContext, String?)? textControllerValidator;
-  // Model for PropertyFullImageComponent component.
-  late PropertyFullImageComponentModel propertyFullImageComponentModel1;
-  // Model for PropertyFullImageComponent component.
-  late PropertyFullImageComponentModel propertyFullImageComponentModel2;
-  // Model for PropertyFullImageComponent component.
-  late PropertyFullImageComponentModel propertyFullImageComponentModel3;
-  // Model for PropertyFullImageComponent component.
-  late PropertyFullImageComponentModel propertyFullImageComponentModel4;
-  // Model for PropertyFullImageComponent component.
-  late PropertyFullImageComponentModel propertyFullImageComponentModel5;
-  // Model for PropertyCardComponent component.
-  late PropertyCardComponentModel propertyCardComponentModel1;
-  // Model for PropertyCardComponent component.
-  late PropertyCardComponentModel propertyCardComponentModel2;
-  // Model for PropertyCardComponent component.
-  late PropertyCardComponentModel propertyCardComponentModel3;
-  // Model for PropertyCardComponent component.
-  late PropertyCardComponentModel propertyCardComponentModel4;
-  // Model for PropertyCardComponent component.
-  late PropertyCardComponentModel propertyCardComponentModel5;
+  // Model for AccomodationFullImageComponent component.
+  late AccomodationFullImageComponentModel accomodationFullImageComponentModel1;
+  // Model for AccomodationFullImageComponent component.
+  late AccomodationFullImageComponentModel accomodationFullImageComponentModel2;
+  // Model for AccomodationFullImageComponent component.
+  late AccomodationFullImageComponentModel accomodationFullImageComponentModel3;
+  // Model for AccomodationFullImageComponent component.
+  late AccomodationFullImageComponentModel accomodationFullImageComponentModel4;
+  // Model for AccomodationFullImageComponent component.
+  late AccomodationFullImageComponentModel accomodationFullImageComponentModel5;
+  // Model for AccomodationCardComponent component.
+  late AccomodationCardComponentModel accomodationCardComponentModel1;
+  // Model for AccomodationCardComponent component.
+  late AccomodationCardComponentModel accomodationCardComponentModel2;
+  // Model for AccomodationCardComponent component.
+  late AccomodationCardComponentModel accomodationCardComponentModel3;
+  // Model for AccomodationCardComponent component.
+  late AccomodationCardComponentModel accomodationCardComponentModel4;
+  // Model for AccomodationCardComponent component.
+  late AccomodationCardComponentModel accomodationCardComponentModel5;
 
   @override
   void initState(BuildContext context) {
-    propertyFullImageComponentModel1 =
-        createModel(context, () => PropertyFullImageComponentModel());
-    propertyFullImageComponentModel2 =
-        createModel(context, () => PropertyFullImageComponentModel());
-    propertyFullImageComponentModel3 =
-        createModel(context, () => PropertyFullImageComponentModel());
-    propertyFullImageComponentModel4 =
-        createModel(context, () => PropertyFullImageComponentModel());
-    propertyFullImageComponentModel5 =
-        createModel(context, () => PropertyFullImageComponentModel());
-    propertyCardComponentModel1 =
-        createModel(context, () => PropertyCardComponentModel());
-    propertyCardComponentModel2 =
-        createModel(context, () => PropertyCardComponentModel());
-    propertyCardComponentModel3 =
-        createModel(context, () => PropertyCardComponentModel());
-    propertyCardComponentModel4 =
-        createModel(context, () => PropertyCardComponentModel());
-    propertyCardComponentModel5 =
-        createModel(context, () => PropertyCardComponentModel());
+    accomodationFullImageComponentModel1 =
+        createModel(context, () => AccomodationFullImageComponentModel());
+    accomodationFullImageComponentModel2 =
+        createModel(context, () => AccomodationFullImageComponentModel());
+    accomodationFullImageComponentModel3 =
+        createModel(context, () => AccomodationFullImageComponentModel());
+    accomodationFullImageComponentModel4 =
+        createModel(context, () => AccomodationFullImageComponentModel());
+    accomodationFullImageComponentModel5 =
+        createModel(context, () => AccomodationFullImageComponentModel());
+    accomodationCardComponentModel1 =
+        createModel(context, () => AccomodationCardComponentModel());
+    accomodationCardComponentModel2 =
+        createModel(context, () => AccomodationCardComponentModel());
+    accomodationCardComponentModel3 =
+        createModel(context, () => AccomodationCardComponentModel());
+    accomodationCardComponentModel4 =
+        createModel(context, () => AccomodationCardComponentModel());
+    accomodationCardComponentModel5 =
+        createModel(context, () => AccomodationCardComponentModel());
   }
 
   @override
@@ -61,15 +61,15 @@ class HomePageModel extends FlutterFlowModel<HomePageWidget> {
     textFieldFocusNode?.dispose();
     textController?.dispose();
 
-    propertyFullImageComponentModel1.dispose();
-    propertyFullImageComponentModel2.dispose();
-    propertyFullImageComponentModel3.dispose();
-    propertyFullImageComponentModel4.dispose();
-    propertyFullImageComponentModel5.dispose();
-    propertyCardComponentModel1.dispose();
-    propertyCardComponentModel2.dispose();
-    propertyCardComponentModel3.dispose();
-    propertyCardComponentModel4.dispose();
-    propertyCardComponentModel5.dispose();
+    accomodationFullImageComponentModel1.dispose();
+    accomodationFullImageComponentModel2.dispose();
+    accomodationFullImageComponentModel3.dispose();
+    accomodationFullImageComponentModel4.dispose();
+    accomodationFullImageComponentModel5.dispose();
+    accomodationCardComponentModel1.dispose();
+    accomodationCardComponentModel2.dispose();
+    accomodationCardComponentModel3.dispose();
+    accomodationCardComponentModel4.dispose();
+    accomodationCardComponentModel5.dispose();
   }
 }

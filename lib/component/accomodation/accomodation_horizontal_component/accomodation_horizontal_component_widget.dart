@@ -2,20 +2,20 @@ import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'property_horizontal_component_model.dart';
-export 'property_horizontal_component_model.dart';
+import 'accomodation_horizontal_component_model.dart';
+export 'accomodation_horizontal_component_model.dart';
 
-class PropertyHorizontalComponentWidget extends StatefulWidget {
-  const PropertyHorizontalComponentWidget({super.key});
+class AccomodationHorizontalComponentWidget extends StatefulWidget {
+  const AccomodationHorizontalComponentWidget({super.key});
 
   @override
-  State<PropertyHorizontalComponentWidget> createState() =>
-      _PropertyHorizontalComponentWidgetState();
+  State<AccomodationHorizontalComponentWidget> createState() =>
+      _AccomodationHorizontalComponentWidgetState();
 }
 
-class _PropertyHorizontalComponentWidgetState
-    extends State<PropertyHorizontalComponentWidget> {
-  late PropertyHorizontalComponentModel _model;
+class _AccomodationHorizontalComponentWidgetState
+    extends State<AccomodationHorizontalComponentWidget> {
+  late AccomodationHorizontalComponentModel _model;
 
   @override
   void setState(VoidCallback callback) {
@@ -26,7 +26,7 @@ class _PropertyHorizontalComponentWidgetState
   @override
   void initState() {
     super.initState();
-    _model = createModel(context, () => PropertyHorizontalComponentModel());
+    _model = createModel(context, () => AccomodationHorizontalComponentModel());
   }
 
   @override

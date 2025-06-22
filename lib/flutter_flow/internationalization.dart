@@ -466,6 +466,85 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'fr': 'Maison',
     },
   },
+  // AccomodationDetailPage
+  {
+    '52d9z4p4': {
+      'en': 'Burj Al Arab Jumeirah',
+      'fr': 'Burj Al Arab Jumeirah',
+    },
+    'rsorkb2l': {
+      'en': '4.8',
+      'fr': '4.8',
+    },
+    'n5az029e': {
+      'en': 'Jumeira St, Dubai, UAE',
+      'fr': 'Jumeira St, Dubaï, Émirats arabes unis',
+    },
+    'd50edupj': {
+      'en': '50 reviews',
+      'fr': '50 avis',
+    },
+    'oni62yf9': {
+      'en': 'Top Amenities',
+      'fr': 'Équipements haut de gamme',
+    },
+    'wo9zgftx': {
+      'en': 'See All',
+      'fr': 'Tout voir',
+    },
+    'yumqqtb3': {
+      'en': 'Free Wi-Fi',
+      'fr': 'Wi-Fi gratuit',
+    },
+    '438ij8qm': {
+      'en': 'Heating',
+      'fr': 'Chauffage',
+    },
+    'aqenlsz9': {
+      'en': 'Shower',
+      'fr': 'Douche',
+    },
+    '05ez5q4g': {
+      'en': 'Parking',
+      'fr': 'Parking',
+    },
+    'u7hmwqrn': {
+      'en': 'Location',
+      'fr': 'Emplacement',
+    },
+    'yxmzdx72': {
+      'en': 'See map',
+      'fr': 'Voir la carte',
+    },
+    't3jgkdkw': {
+      'en': 'Petit problème... Une erreur s\'est produite',
+      'fr': 'Petit problème... Une erreur s\'est produite',
+    },
+    '0bi6uxaq': {
+      'en':
+          'Google Maps ne s\'est pas chargé correctement sur cette page. Pour plus d\'informations techniques sur cette erreur, veuillez consulter la console JavaScript.',
+      'fr':
+          'Google Maps ne s\'est pas chargé correctement sur cette page. Pour plus d\'informations techniques sur cette erreur, veuillez consulter la console JavaScript.',
+    },
+    't8hwvzym': {
+      'en': 'Description',
+      'fr': 'Description',
+    },
+    'b7ojhdnm': {
+      'en': 'Read more',
+      'fr': 'En savoir plus',
+    },
+    'pxbv5p1m': {
+      'en':
+          'The Burj Al Arab Jumeirah in Dubai is one of the world\'s most iconic and luxurious hotels, known for its sail-shaped design and ultra-premium service. Often called the world\'s only 7-star hotel, it offers duplex suites, private butlers, Rolls-Royce transfers, and',
+      'fr':
+          'Le Burj Al Arab Jumeirah de Dubaï est l\'un des hôtels les plus emblématiques et luxueux au monde, réputé pour son design en forme de voile et son service haut de gamme. Souvent considéré comme le seul hôtel 7 étoiles au monde, il propose des suites duplex, des majordomes privés, des transferts en Rolls-Royce et',
+    },
+    'hsd32rjq': {
+      'en': 'Home',
+      'fr': 'Maison',
+    },
+  },
   // PermissionsNotificationComponent
   {
     'flr32q7o': {
@@ -505,7 +584,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'fr': 'Activer',
     },
   },
-  // PropertyFullImageComponent
+  // AccomodationFullImageComponent
   {
     'lj0516vl': {
       'en': 'Burj Al Arab Jumeirah',
@@ -524,7 +603,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'fr': '0',
     },
   },
-  // PropertyCardComponent
+  // AccomodationCardComponent
   {
     'wa7w6sg4': {
       'en': 'Burj Al Arab Jumeirah',
@@ -555,7 +634,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'fr': 'À partir de',
     },
   },
-  // PropertyHorizontalComponent
+  // AccomodationHorizontalComponent
   {
     'ulf5cscw': {
       'en': 'Appartement cosy avec jardin',
@@ -576,6 +655,21 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     '13uqwpbs': {
       'en': '/nuit',
       'fr': '/nuit',
+    },
+  },
+  // BookingPriceComponent
+  {
+    '5xhe08mn': {
+      'en': '\$400',
+      'fr': '400 \$',
+    },
+    '5bxi1rtx': {
+      'en': 'Starting from',
+      'fr': 'À partir de',
+    },
+    'kzvpaczg': {
+      'en': 'Book now',
+      'fr': 'Réservez maintenant',
     },
   },
   // Miscellaneous
