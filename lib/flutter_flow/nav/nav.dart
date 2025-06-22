@@ -122,6 +122,18 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: BookingDetailsPageWidget.routeName,
           path: BookingDetailsPageWidget.routePath,
           builder: (context, params) => BookingDetailsPageWidget(),
+        ),
+        FFRoute(
+          name: ChatListPageWidget.routeName,
+          path: ChatListPageWidget.routePath,
+          builder: (context, params) => params.isEmpty
+              ? NavBarPage(initialPage: 'ChatListPage')
+              : ChatListPageWidget(),
+        ),
+        FFRoute(
+          name: ChatPageWidget.routeName,
+          path: ChatPageWidget.routePath,
+          builder: (context, params) => ChatPageWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

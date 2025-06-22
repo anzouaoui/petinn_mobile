@@ -19,3 +19,6 @@ export '/pages/booking/bookings_list_page/bookings_list_page_widget.dart'
     show BookingsListPageWidget;
 export '/pages/booking/booking_details_page/booking_details_page_widget.dart'
     show BookingDetailsPageWidget;
+export '/pages/chat/chat_list_page/chat_list_page_widget.dart'
+    show ChatListPageWidget;
+export '/pages/chat/chat_page/chat_page_widget.dart' show ChatPageWidget;

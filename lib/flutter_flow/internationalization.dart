@@ -553,7 +553,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'sfktd88a': {
       'en': 'Upcoming',
-      'fr': 'A venir',
+      'fr': 'Prochain',
     },
     '2pqcssik': {
       'en': 'Passed',
@@ -635,6 +635,40 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'fr': 'Annuler la réservation',
     },
     'ybycj06r': {
+      'en': 'Home',
+      'fr': 'Maison',
+    },
+  },
+  // ChatListPage
+  {
+    'b6zzn9yi': {
+      'en': 'Chats',
+      'fr': 'Chats',
+    },
+    'cysfkdg7': {
+      'en': 'Search',
+      'fr': 'Recherche',
+    },
+    'x13xu6dx': {
+      'en': 'Home',
+      'fr': 'Maison',
+    },
+  },
+  // ChatPage
+  {
+    't5gd0bie': {
+      'en': 'Today',
+      'fr': 'Aujourd\'hui',
+    },
+    'rfcbrvki': {
+      'en': 'Hi Liam',
+      'fr': 'Salut Liam',
+    },
+    'tjvrtxe9': {
+      'en': '10:42 AM',
+      'fr': '10h42',
+    },
+    'dzuzaj7i': {
       'en': 'Home',
       'fr': 'Maison',
     },
@@ -782,7 +816,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     '7ij1zrnm': {
       'en': 'Upcoming',
-      'fr': 'A venir',
+      'fr': 'Prochain',
     },
     'nqaefk4u': {
       'en': 'From Aug 04 to Aug 04',
@@ -887,11 +921,82 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'xbx6mdx6': {
       'en': 'TextField',
-      'fr': '',
+      'fr': 'Champ de texte',
     },
     'wf6psgih': {
       'en': 'Confirmed',
       'fr': 'Confirmé',
+    },
+  },
+  // ChatsCardComponent
+  {
+    'sicrtif7': {
+      'en': 'L',
+      'fr': 'L',
+    },
+    'kl7eku1v': {
+      'en': 'Liam Smith',
+      'fr': 'Liam Smith',
+    },
+    '1xjpz580': {
+      'en': 'Hi Liam',
+      'fr': 'Salut Liam',
+    },
+    '9jalgizr': {
+      'en': '10:42 AM',
+      'fr': '10h42',
+    },
+  },
+  // ChatSettingsComponent
+  {
+    '5l5kzsrw': {
+      'en': 'Settings',
+      'fr': 'Paramètres',
+    },
+    'x14ub2kj': {
+      'en': 'Mark as all read',
+      'fr': 'Marquer comme tout lu',
+    },
+    'u6sb6hna': {
+      'en': 'Delete all chats',
+      'fr': 'Supprimer toutes les discussions',
+    },
+  },
+  // MessageTextfieldComponent
+  {
+    'pigwyvom': {
+      'en': 'Message...',
+      'fr': 'Message...',
+    },
+  },
+  // MessageNameComponent
+  {
+    'kn1isj48': {
+      'en': 'L',
+      'fr': 'L',
+    },
+    '7znxm93u': {
+      'en': 'Liam Smith',
+      'fr': 'Liam Smith',
+    },
+    'd12ejhzo': {
+      'en': 'Online',
+      'fr': 'En ligne',
+    },
+  },
+  // MessagesSettingsComponent
+  {
+    'e0gip5yh': {
+      'en': 'Settings',
+      'fr': 'Paramètres',
+    },
+    'kssuqa62': {
+      'en': 'Report',
+      'fr': 'Rapporter',
+    },
+    'pe6c9rsc': {
+      'en': 'Delete all messages',
+      'fr': 'Supprimer tous les messages',
     },
   },
   // Miscellaneous

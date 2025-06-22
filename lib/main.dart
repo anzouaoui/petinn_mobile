@@ -136,6 +136,7 @@ class _NavBarPageState extends State<NavBarPage> {
       'HomePage': HomePageWidget(),
       'SearchPage': SearchPageWidget(),
       'BookingsListPage': BookingsListPageWidget(),
+      'ChatListPage': ChatListPageWidget(),
     };
     final currentIndex = tabs.keys.toList().indexOf(_currentPageName);
 
@@ -182,6 +183,16 @@ class _NavBarPageState extends State<NavBarPage> {
             ),
             label: FFLocalizations.of(context).getText(
               'w1s1xx9z' /* Home */,
+            ),
+            tooltip: '',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(
+              Icons.message,
+              size: 24.0,
+            ),
+            label: FFLocalizations.of(context).getText(
+              'x13xu6dx' /* Home */,
             ),
             tooltip: '',
           )
